@@ -43,7 +43,6 @@ void Critter::Update(float dt)
 	m_isDirty = false;
 }
 
-
 void Critter::Draw()
 {
 	if (m_isLoaded == false)
